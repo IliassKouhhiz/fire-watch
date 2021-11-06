@@ -8,15 +8,16 @@ export default {
   name: "FetchData",
   data: () => {
     return {
-      url: `http://localhost:8080/public.storykube.com/start2impact/fires.json`,
+      url: `https://storage.googleapis.com/public.storykube.com/start2impact/fires.json`,
     };
   },
   methods: {
     async fetchData() {
       try {
+        const proxyUrl = "https://api.allorigins.win/raw?url=";
         const response = await axios({
           method: "get",
-          url: this.url,
+          url: proxyUrl + this.url,
         });
         this.$emit("received", response.data);
       } catch (error) {
