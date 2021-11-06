@@ -1,5 +1,5 @@
 module.exports = {
-  // options...
+  publicPath: "/fire-watch/",
   devServer: {
     proxy: "https://storage.googleapis.com",
   },
