@@ -1,24 +1,7 @@
-# fire-watch
+# Fire Watch
 
-## Project setup
+## Description
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project is a simple exercise involving vue.js. 
+The purpose of the application is to show on a map the sites where, in the world, fires have broken out in a certain period of time. 
+The data is collected from NASA's Fire Information for Resource Management System (FIRMS).
